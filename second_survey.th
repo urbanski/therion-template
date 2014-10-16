@@ -1,0 +1,22 @@
+encoding  utf-8
+       
+survey second_survey \
+-title "CAVE_TITLE - SURVEY_TITLE" \
+-declination [2014 2.85 degrees]      
+
+centerline
+    team "TEAM_MEMBER_1" 
+    team "TEAM_MEMBER_2" 
+    date 2014.09.20
+    units compass deg 
+    units clino deg  
+    calibrate compass 1 1    
+    
+    data normal \
+	compass  clino  length  from	to  # 	note
+    100		  10    14.4    START	2  	#	SAMPLE 
+    200 	  20    2.59 	  2		END #	SAMPLE
+
+    endcenterline
+endsurvey
+

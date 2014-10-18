@@ -1,0 +1,11 @@
+#input layout.th
+ 
+survey fiume -title "CAVE TITLE"
+input first_survey
+input second_survey
+
+centerline
+ equate END@first_survey START@second_survey
+endcenterline
+endsurvey
+

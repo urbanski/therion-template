@@ -1,0 +1,5 @@
+encoding  utf-8
+source cave.th
+
+export model -format survex -o build/CAVE_NAME.3d
+export map -projection plan -o "build/CAVE_NAME.pdf
